@@ -1,0 +1,20 @@
+1.first do npm i 
+
+2.then run index.js file by running command node index.js on the terminal
+
+3.after that check the connectivity of mongodb it should say connected to mongodb and Server running on port 3000
+
+4.then go to postman and hit the first api of creating user or signup by using the route: http://localhost:3000/api/v1/user/ and in body send {"userName":"", "email":"","password":""} in body/raw/json
+
+5.then you can login with the same email and password that you have created before by using the route: http://localhost:3000/api/v1/user/login 
+
+6.next you can get all stored ids by hitting the route http://localhost:3000/api/v1/user/ and this time you have to use the "get" http method and you can also get a edit userName, password, email by using "put and patch" method and by using the email, password 
+
+7.you can also delete the user by hitting http://localhost:3000/api/v1/user/:id (this id you can get from mongodb which is in the name of objectId)
+
+
+
+
+
+
+
